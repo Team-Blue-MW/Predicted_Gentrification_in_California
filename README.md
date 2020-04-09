@@ -37,10 +37,10 @@ Sierra then volunteered to setup our SLACK Channel for Team BLue and this reposi
 ## Week 1 Deliverables
 Content Team members have drafted their project, including the following:
 
-*✓ Selected topic 
-*✓ Reason why they selected their topic 
-*✓ Description of their source of data 
-*✓ Questions they hope to answer with the data 
+Selected topic - Gentrification. 
+It's a growing concern among numerous neighborhoods in different cities, and a hot topic for developers looking to invest money. With this research we are hoping to find out the combination of factors in different areas that already have been gentrified to determine potential future candidates that 'have it all'. And, possibly define the 'opportunity zones' through clutering algorithms. (Opportunity zones being the investment in local buisnesses for a certain timeframe, in order to recive tax breaks) 
+
+Data Sources: Los Angeles GeoHub, PortlandMaps Open Data, data.world
 
 Git Hub - who is good at github? 
 * Master Branch
