@@ -66,3 +66,10 @@ Team members present a provisional database that stands in for the final databas
 * ✓ Draft machine learning module is connected to the provisional database 
 
 Dashboard - To be determined in week 2 of project. 
+
+## Project Roles
+
+Sierra- Dashboard and set up slack & GitHub
+Alena- Machine Learning
+Thomas- Database and communications
+Daniel- SQL and data
