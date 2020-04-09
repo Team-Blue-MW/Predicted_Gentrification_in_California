@@ -69,7 +69,7 @@ Dashboard - To be determined in week 2 of project.
 
 ## Project Roles
 
-Sierra- Dashboard and set up slack & GitHub
-Alena- Machine Learning
-Thomas- Database and communications
-Daniel- SQL and data
+* Sierra- Dashboard and set up slack & GitHub
+* Alena- Machine Learning
+* Thomas- Database and communications
+* Daniel- SQL and database
