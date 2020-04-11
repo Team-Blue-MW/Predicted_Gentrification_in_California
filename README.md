@@ -60,9 +60,9 @@ Git Hub -
 * ✓ Each team member has at least four commits from the duration of the first segment - complete. 
 
 Machine Learning Model 
-* Team members present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following: 
-* ✓ Takes in data in from the provisional database 
-* ✓ Outputs label(s) for input data
+* Alena has placed psuedo code in Branch - Alena for the ML definition. It looks highly likely that we will use a classification model on an imbalanced labeled dataset to train the model. Based on an analysis of the data, this appears we will used a Supervised Learning ML and our labeled dataset to predict our target = Gentrification = 1. 
+
+In addition to psuedo ML code, we have sample data in Branch - ALena and Branch - Thomas.
 
 Database 
 * Daniel has created a provisional database (fake data) which mimics major "Features" (X variable) using multiple columns which will be present in final database. He has setup a local POSTGRES database to test and store the values. This task is complete and his code can be found in Branch - Daniel of this repository. 
@@ -74,7 +74,7 @@ Database
 
 Dashboard - To be determined in week 2 of project. Sierra is currently working on the draft storyboard and we will view that draft on Monday of Week 2.
 
-In addition, Thomas reached out to Program Mgr Michael, Trilogy, and TA Rushi to clarify deliverables for Week 1 in area of ML and Database. We are waiting for an answer. Rushi is checking with Instructor Hugo to see if she can get an answer. 
+In addition, Thomas reached out to Program Mgr Michael, Trilogy, and TA Rushi to clarify deliverables for Week 1 in area of ML and Database. Both Michael Fox and Hugo (Instructor) responded back and said a description of the ML and database would meet requirements.  
 
 ## Project Roles
 
