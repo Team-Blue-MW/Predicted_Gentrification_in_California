@@ -78,14 +78,18 @@ In addition, Thomas reached out to Program Mgr Michael, Trilogy, and TA Rushi to
 
 ## Project Roles
 
-* Sierra- Storyboard and set up slack & GitHub
-* Alena- Machine Learning Model
-* Thomas- Database and communication on deliverables
-* Daniel- SQL and Database
+**Square**: Sierra Harris
+
+**Triangle**: Alena Kuznetsova
+
+**Circle**: Daniel Chang
+
+**X**: Thomas Cottrell
 
 Team Zoom Meetings:
-April 6 - 4 PM
-April 6  7-9PM
-April 8 - 3 PM
-April 8 7-9 PM
+
+April 6 - 4 PM,
+April 6  7-9PM,
+April 8 - 3 PM,
+April 8 7-9 PM,
 April 10 2 PM
