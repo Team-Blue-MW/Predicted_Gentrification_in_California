@@ -86,7 +86,7 @@ In addition, Thomas reached out to Program Mgr Michael, Trilogy, and TA Rushi to
 
 **X**: Thomas Cottrell
 
-#### Team Zoom Meetings:
+### Team Zoom Meetings
 
 April 6 - 4 PM,
 April 6  7-9PM,
