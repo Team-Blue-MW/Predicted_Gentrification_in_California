@@ -1,2 +1,5 @@
-# Ignore config.py
+# Ignore py files
 config.py 
+
+# Ignore md files
+technology.md
