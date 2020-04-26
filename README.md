@@ -1,5 +1,5 @@
 # Project_M20
-Final Project for Team Blue in UC Berkeley Data Analytics Class. 
+Attention - GRADER: Please find Rubric Deliverables for Week 2 Below 
 
 Deliverable #1 - PROJECT PRESENTATION can be found in Google Slides at 
 https://docs.google.com/presentation/d/1LRGL9fkDld9kNaR7kHqptzNkjxrQsmkt7Id-hZfG8Ac/edit?usp=sharing
