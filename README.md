@@ -103,4 +103,17 @@ April 6 - 4 PM,
 April 6  7-9PM,
 April 8 - 3 PM,
 April 8 7-9 PM,
-April 10 2 PM
+April 10 2 PM,
+April 13 3 PM,
+April 13, 7 PM
+April 15 2 PM,
+April 15 7 PM,
+April 17, 3 PM,
+April 20, 7 PM,
+April 22 4 PM,
+April 22 7 PM,
+April 24 3 PM (Sierra told us she is leaving) 
+April 25 (shift in duties)
+April 26 1PM (Finalize Week 2 Deliverables)
+
+
