@@ -1,5 +1,6 @@
 # Project_M20
-Attention - GRADER: Please find Rubric Deliverables for Week 2 Below 
+
+## Week 2 Project Deliverables  
 
 Deliverable #1 - PROJECT PRESENTATION can be found in Google Slides at 
 https://docs.google.com/presentation/d/1LRGL9fkDld9kNaR7kHqptzNkjxrQsmkt7Id-hZfG8Ac/edit?usp=sharing
@@ -8,9 +9,12 @@ Deliverable #2 - GITHUB - this GitHub Repository
 
 Deliverable #3 - Machine Learning Model - 
 
-Deliverable #4 - Database
+Deliverable #4 - Database: 
+* Fake Data Python Code found under  XXXX 
+* Real Data Python Code found under XXXXX 
+* Database Schema found under XXXXX
 
-Deliverable #5 - Dashboard - Google Slide Link https://docs.google.com/presentation/d/1gG6KDQ8mBVEYPGtawjPi9MpZdGQSC38lWJVrBN4hK-w/edit?usp=sharing
+Deliverable #5 - Gentrification Dashboard - Google Slide https://docs.google.com/presentation/d/1gG6KDQ8mBVEYPGtawjPi9MpZdGQSC38lWJVrBN4hK-w/edit?usp=sharing
 
 ## Project Process Overview
 The Class instructors divided the class into 3 4-person teams with each team defining their own project within the Rubric provided. The project will run over 4 weeks with defined deliverables due at the end of each week on Sunday. The Rubric can be found in the Master Branch of the Repository. 
