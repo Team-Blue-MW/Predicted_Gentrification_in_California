@@ -1,5 +1,6 @@
 # Project_M20
-Final Project for Team Blue in UC Berkeley Data Analytics Class
+Final Project for Team Blue in UC Berkeley Data Analytics Class. PROJECT PRESENTATION can be found in Google Slides at 
+https://docs.google.com/presentation/d/1LRGL9fkDld9kNaR7kHqptzNkjxrQsmkt7Id-hZfG8Ac/edit?usp=sharing
 
 ## Project Process Overview
 The Class instructors divided the class into 3 4-person teams with each team defining their own project within the Rubric provided. The project will run over 4 weeks with defined deliverables due at the end of each week on Sunday. The Rubric can be found in the Master Branch of the Repository. 
