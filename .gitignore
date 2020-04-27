@@ -1,2 +1,12 @@
+<<<<<<< HEAD
 config.py
 technology.md
+=======
+# Ignore py files
+config.py 
+
+# Ignore md files
+technology.md
+
+etl_datasets.ipynb
+>>>>>>> 39c8b22d51bd5db3dc518fd7a7d4fe84c1320722
