@@ -7,7 +7,7 @@ https://docs.google.com/presentation/d/1LRGL9fkDld9kNaR7kHqptzNkjxrQsmkt7Id-hZfG
 
 Deliverable #2 - GITHUB - this GitHub Repository 
 
-Deliverable #3 - Machine Learning Model - 
+Deliverable #3 - Machine Learning Model - code found in file new_dataset_test.lpynb
 
 Deliverable #4 - Database: 
 * Fake Data Python Code found under  Fake_Data Folder in Master Branch
