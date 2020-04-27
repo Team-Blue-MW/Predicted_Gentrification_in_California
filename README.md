@@ -10,9 +10,9 @@ Deliverable #2 - GITHUB - this GitHub Repository
 Deliverable #3 - Machine Learning Model - 
 
 Deliverable #4 - Database: 
-* Fake Data Python Code found under  XXXX 
-* Real Data Python Code found under XXXXX 
-* Database Schema found under XXXXX
+* Fake Data Python Code found under  Fake_Data Folder in Master Branch
+* Real Data Python Code found under ETL Folder in Master Branch 
+* Database ERD and SQL Code found under ETL Folder in Master Branch
 
 Deliverable #5 - Gentrification Dashboard - Google Slide https://docs.google.com/presentation/d/1gG6KDQ8mBVEYPGtawjPi9MpZdGQSC38lWJVrBN4hK-w/edit?usp=sharing
 
