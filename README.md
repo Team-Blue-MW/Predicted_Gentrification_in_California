@@ -1,6 +1,7 @@
 # Project_M20
 
-## Week 2 Project Deliverables  - Note - This week we lost 1 team member Sierra Harris who has applied to drop the course and enroll in next semester. We now have 3 members Daniel, Alena, and Thomas 
+## Week 2 Project Deliverables
+Note - This week we lost 1 team member Sierra Harris who has applied to drop the course and enroll in next semester. We now have 3 members Daniel, Alena, and Thomas 
 
 Deliverable #1 - PROJECT PRESENTATION can be found in Google Slides at 
 https://docs.google.com/presentation/d/1LRGL9fkDld9kNaR7kHqptzNkjxrQsmkt7Id-hZfG8Ac/edit?usp=sharing
