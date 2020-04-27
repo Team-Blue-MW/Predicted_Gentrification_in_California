@@ -1,0 +1,29 @@
+Features_1
+------
+Zip PK int
+Average_Education_Index_2000 int 
+Average_Education_Index_2014 int
+Index_Change int
+Median_House_Value_2000 int
+Median_House_Value_2014 int
+Percent_Change_House int
+Median_Income_2000 int
+Median_Income_2014 int
+Percent_Change_Income int
+
+Features_2
+-----
+Zip int FK >- Features_1.Zip
+Median_Rent_2000 int
+Median_Rent_2014 int
+Percent_Change_Rent int
+Percent_Public_Transp_2000 int
+Percent_Public_Transp_2014 int
+Percent_Change_Public_Tranp int
+Population_2000 int
+Population_2014 int
+Percent_Change_Population int
+Percent_White_2000 int
+Percent_White_2014 int
+Percent_Change_White int
+Gentrified binary
