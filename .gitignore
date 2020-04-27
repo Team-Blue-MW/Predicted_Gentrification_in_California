@@ -3,3 +3,5 @@ config.py
 
 # Ignore md files
 technology.md
+
+etl_datasets.ipynb
