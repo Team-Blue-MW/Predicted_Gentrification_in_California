@@ -3,7 +3,7 @@
 ## Week 3 Project Deliverables
 
 Deliverable #1 - PROJECT PRESENTATION can be found in Google Slides at 
-https://docs.google.com/presentation/d/1LRGL9fkDld9kNaR7kHqptzNkjxrQsmkt7Id-hZfG8Ac/edit?usp=sharing
+https://docs.google.com/presentation/d/1EY89jfloF3GVRu5aWbtuCjoAC_eqLCAd30Rm7RYjSD4/edit?usp=sharing
 
 Deliverable #2 - GITHUB - this GitHub Repository 
 
