@@ -17,6 +17,7 @@ https://docs.google.com/presentation/d/1IF_iHJMSYnA6jvOHU9LZdg2cg2WcogY5j00ZlOhl
 * Real Data Python Code found under ETL Folder in Master Branch 
 * Database ERD and SQL Code found under ETL Folder in Master Branch
 
+
 Deliverable #5 - Gentrification Dashboard - Google Slide https://docs.google.com/presentation/d/1gG6KDQ8mBVEYPGtawjPi9MpZdGQSC38lWJVrBN4hK-w/edit?usp=sharing
 
 
