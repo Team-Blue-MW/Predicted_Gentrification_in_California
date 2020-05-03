@@ -1,5 +1,25 @@
 # Project_M20
 
+## Week 3 Project Deliverables
+
+Deliverable #1 - PROJECT PRESENTATION can be found in Google Slides at 
+https://docs.google.com/presentation/d/1LRGL9fkDld9kNaR7kHqptzNkjxrQsmkt7Id-hZfG8Ac/edit?usp=sharing
+
+Deliverable #2 - GITHUB - this GitHub Repository 
+
+Deliverable #3 - Machine Learning Model - code found in file new_dataset_test.lpynb in Master Branch plus description added below under ML Overview week 2 deliverables. 
+
+Deliverable #4 - Database: 
+Database presentation can be found in Google Slides at
+https://docs.google.com/presentation/d/1IF_iHJMSYnA6jvOHU9LZdg2cg2WcogY5j00ZlOhlpWU/edit?usp=sharing
+
+* Fake Data Python Code found under  Fake_Data Folder in Master Branch
+* Real Data Python Code found under ETL Folder in Master Branch 
+* Database ERD and SQL Code found under ETL Folder in Master Branch
+
+Deliverable #5 - Gentrification Dashboard - Google Slide https://docs.google.com/presentation/d/1gG6KDQ8mBVEYPGtawjPi9MpZdGQSC38lWJVrBN4hK-w/edit?usp=sharing
+
+
 ## Week 2 Project Deliverables
 Note - This week we lost 1 team member Sierra Harris who has applied to drop the course and enroll in next semester. We now have 3 members Daniel, Alena, and Thomas 
 
