@@ -1,90 +1,11 @@
-# Project_M20
-Final Project for Team Blue in UC Berkeley Data Analytics Class
+# Extract, Transform, and Load Overview
+The Extract, Transform, and Load process is when data is gathered from a source which is then altered and sent out to be used in the machine learning code. This process was very important when creating our dataset for our project. Since we did not have a proper dataset and the project demanded multiple dependencies. It was crucial to create a functional etl code so that the data would seemlessly be integrated in the AWS S3 bucket and the machine learning model.
 
-Project Process Overview
-The Class instructors divided the class into 3 4-person teams with each team defining their own project within the Rubric provided. The project will run over 4 weeks with defined deliverables due at the end of each week on Sunday. The Rubric can be found in the Master Branch of the Repository.
+## ETL Process
+In our code, we had three different ETL processes to convert the data we needed to create proper analysis and visualiztion. 
 
-Phase 1 - Project Definition
-During the first week, the team will meet during normal class hours on Monday and Wednesday and hold any additional Zoom meetings as determined by the team. The objectives during this first week are to:
+The first file was the etl_datasets.ipynb. In this file we gathered and created a dataframe from the USA.com datasets. We created a function that would read the html of the dataset and then transform it into a pandas dataframe. The datasets metrics we gathered were avg_edu, house_median_value, median_income, median_rent, public_transportation, total_pop, and white_pop. We gathered each datasets from the year 2000 and 2014 which came out to a total of 14 dataframses. From the dataframe the unneccessary columns would then be edited out. The zipcode/total population column was then split and the total population data was deleted. The dataframes were first uploaded as a csv file and everything was transferred locally but then our group integrated the AWS S3 Buckets so from here we changed the uploads to transfer the csv files on the cloud.
 
-Get acquainted with team members
-Choose a project and determine roles
-Do due diligence on various aspects of the project such as source of data, technology stack, how work will be assigned and tracked.
-Project Kickoff Meeting
-Team-Blue held their first meeting on Monday at 3 pm over zoom to kick off the project and get acquainted. We did a round robin answering such questions as:
+The second file then gathered each and every csv file from the cloud and transformed the dataset. We grabbed a total of 14 different datasets that were then converted and formatted to fit the machine learning model. We transformed the datasets by removing the special characters from the data values so that each value could be manipulated as a float rather than a string. The related dataframes were then merged to create new dataframes for each metric that would be measured: Average Education Index, Median House Price, Median Income, Median Rent, Public Transportation %, Total Population, and White Population %. For each new dataframe a new % change metric column was created by finding the difference. After the different datasets were then aggregated into two dataframes called economics and demoggraphics. The economics dataframe had the metrics pertaining to income and prices while the demogrpahics dataframe had metrics pertaining to details about the population. The resulting dataframes are then converted into a csv and transferred into the AWS S3 bucket.
 
-Why did you take this course and what were your objectives
-How are you doing in the course? Challenges, unit tests
-Work experience
-Project experience
-Any particular domain (subject matter) expertise, hobbies, professional
-Any initial thoughts on project ideas and role you want to play
-Best time for you to work on project
-Best time for team meetings
-Can we contact you during the day via text, cell
-During the meeting we brainstormed some initial ideas and committed to each come up with 3-4 project ideas and describe them in written form using the template provided in the Rubric as follows:
-
-Selected topic
-Reason why we selected the topic
-Description of our source data
-Questions we hoped to answer from the data through prediction or classification via ML.
-With 12 ideas total, we then came back on Weds 4/8 and did a multi-vote. Each member was given 3 votes to vote on their favorite topic. We then tallied the votes and came up with the First, Second, Third Choice. The top topic was:
-
-Gentrification - Predicting neighborhood candidates for gentrification glusters.
-The second and third choice will be backup topics if we run into insolveable problems on topic 1.
-
-Sierra then volunteered and setup our SLACK Channel for Team BLue and this repository. Daniel has subsequently located a quick reference guide for SLACK in a team setting. We are all reading up on it to learn SLACK Workflow for projects.
-
-Week 1 Deliverables
-Content Team members have drafted their project, including the following:
-
-Selected topic - Gentrification. We have selected our toppic as below: It's a growing concern among numerous neighborhoods in different cities, and a hot topic for developers looking to invest money. With this research we are hoping to find out the combination of factors in different areas that already have been gentrified to determine potential future candidates that 'have it all', using supervised machine learning classification algorithm. And, possibly define the 'opportunity zones' through clutering algorithms. (Opportunity zones being the investment in local buisnesses for a certain timeframe, in order to recive tax breaks)
-
-Data Sources: Los Angeles GeoHub, PortlandMaps Open Data, data.world. Data source links are located in Branch-Alena. Daniel and Thomas are doing preliminary analysis on the datasources.
-
-Git Hub -
-
-Master Branch - this repository.
-✓ Includes a README.md - this README.
-✓ Description of the communication protocols:
-
-We have setup a Team-Blue Slack channel for communication.
-
-We also hold Adhoc Zoom Meetings with the whole team twice a week to check progress and next steps. These are in addition to the regular Monday-Wednesday 7-9 pm working meetings setup by the instructor.
-
-All progress is recorded in this README file.
-
-Individual Branches
-
-✓ At least one branch for each team member - complete.
-
-✓ Each team member has at least four commits from the duration of the first segment - complete.
-
-Machine Learning Model
-
-Alena has placed psuedo code in Branch - Alena for the ML definition. It looks highly likely that we will use a classification model on an imbalanced labeled dataset to train the model. Based on an analysis of the data, this appears we will used a Supervised Learning ML and our labeled dataset to predict our target = Gentrification = 1.
-In addition to psuedo ML code, we have sample data in Branch - ALena and Branch - Thomas.
-
-Database
-
-Daniel has created a provisional database (fake data) which mimics major "Features" (X variable) using multiple columns which will be present in final database. He has setup a local POSTGRES database to test and store the values. This task is complete and his code can be found in Branch - Daniel of this repository.
-
-We will not connect the machine learning module to the provisional database but instead move directly to setting up a Cloud Based Database on Amazon - fully accessible by all team members.
-
-The final data for training and testing our ML model will be prepared by 2 team members - Daniel and Thomas. This will then drive the final DB Schema and data will be moved into the Cloud-Based DB during week 2 of the project.
-
-Dashboard - To be determined in week 2 of project. Sierra is currently working on the draft storyboard and we will view that draft on Monday of Week 2.
-
-In addition, Thomas reached out to Program Mgr Michael, Trilogy, and TA Rushi to clarify deliverables for Week 1 in area of ML and Database. Both Michael Fox and Hugo (Instructor) responded back and said a description of the ML and database would meet requirements.
-
-Project Roles
-Square: Sierra Harris
-
-Triangle: Alena Kuznetsova
-
-Circle: Daniel Chang
-
-X: Thomas Cottrell
-
-Team Zoom Meetings
-April 6 - 4 PM, April 6 7-9PM, April 8 - 3 PM, April 8 7-9 PM, April 10 2 PM
+The final ETL process is transferring the final ML predicted model from the AWS S3 bucket onto a local csv file which would then be used in the Tableau Notebook to create visualization model. 
