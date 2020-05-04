@@ -7,7 +7,7 @@ https://docs.google.com/presentation/d/1EY89jfloF3GVRu5aWbtuCjoAC_eqLCAd30Rm7RYj
 
 Deliverable #2 - GITHUB - this GitHub Repository 
 
-Deliverable #3 - Machine Learning Model - code found in file new_dataset_test.lpynb in Master Branch plus description added below under ML Overview week 2 deliverables. 
+Deliverable #3 - Machine Learning Model - code found in file test_4.ipynb in Master Branch plus description added below under ML Overview week 2 deliverables. 
 
 Deliverable #4 - Database: 
 Database presentation can be found in Google Slides at
