@@ -1,6 +1,67 @@
 # Project_M20
-Final Project for Team Blue in UC Berkeley Data Analytics Class. PROJECT PRESENTATION can be found in Google Slides at 
+
+## Week 3 Project Deliverables
+
+Deliverable #1 - PROJECT PRESENTATION can be found in Google Slides at 
+https://docs.google.com/presentation/d/1EY89jfloF3GVRu5aWbtuCjoAC_eqLCAd30Rm7RYjSD4/edit?usp=sharing
+
+Deliverable #2 - GITHUB - this GitHub Repository 
+
+Deliverable #3 - Machine Learning Model - code found in file test_4.ipynb in Master Branch plus description added below under ML Overview week 2 deliverables. 
+
+Deliverable #4 - Database: 
+Database presentation can be found in Google Slides at
+https://docs.google.com/presentation/d/1IF_iHJMSYnA6jvOHU9LZdg2cg2WcogY5j00ZlOhlpWU/edit?usp=sharing
+
+* Fake Data Python Code found under  Fake_Data Folder in Master Branch
+* Real Data Python Code found under ETL Folder in Master Branch 
+* Database ERD and SQL Code found under ETL Folder in Master Branch
+
+
+Deliverable #5 - Gentrification Dashboard - Google Slide https://docs.google.com/presentation/d/1gG6KDQ8mBVEYPGtawjPi9MpZdGQSC38lWJVrBN4hK-w/edit?usp=sharing
+
+## Week 2 Project Deliverables
+Note - This week we lost 1 team member Sierra Harris who has applied to drop the course and enroll in next semester. We now have 3 members Daniel, Alena, and Thomas 
+
+Deliverable #1 - PROJECT PRESENTATION can be found in Google Slides at 
 https://docs.google.com/presentation/d/1LRGL9fkDld9kNaR7kHqptzNkjxrQsmkt7Id-hZfG8Ac/edit?usp=sharing
+
+Deliverable #2 - GITHUB - this GitHub Repository 
+
+Deliverable #3 - Machine Learning Model - code found in file new_dataset_test.lpynb in Master Branch plus description added below under ML Overview week 2 deliverables. 
+
+Deliverable #4 - Database: 
+* Fake Data Python Code found under  Fake_Data Folder in Master Branch
+* Real Data Python Code found under ETL Folder in Master Branch 
+* Database ERD and SQL Code found under ETL Folder in Master Branch
+* Description added to this file below under Database Week 2 Deliverables below
+
+Deliverable #5 - Gentrification Dashboard - Google Slide https://docs.google.com/presentation/d/1gG6KDQ8mBVEYPGtawjPi9MpZdGQSC38lWJVrBN4hK-w/edit?usp=sharing
+
+## Machine Learning Overview Week 2 Deliverable
+
+Due to the complexity and multilayer nature of the topic we've selected, and not having complete data available, we had to create our dataset from scratch, hand picking only the features we were going to ultimately use in the mahcine learning model. The decision was based on societal and economic research conducted by other organizations. Hence, the feature selection part was done during the data collection. The downside is, we now have to manually create the outcome column based on existing data. This will require some time, as the plan is to find the already gentrified zipcodes, look at their metrics and come up with a formula/threshold for the rest of the dataset. And for the time being I created a mock outcome, just to see if it works.
+
+As for the feature engineering, I am still debating between 2 algorithms, which are either Random Forest or Gradient Boost. Why I am debating between two: Random Forests require little parameter tuning, robust to noise (which I hope we've aleviated), they're interpretable and great for classification problems. However, using larger random forest require more memory and slows down the process, they do not predict beyond the range of the response values in the training data, and they can be very prone to overfitting.
+
+Gradient Boost is less interpretable, but shows great perfomance, suitable for almost any ML problem, and I just personally like this algorithm. Cons: it requires parameter tuning and prone to overfitting.
+
+Both of the algorithms don't require feature scaling. And at the moment we do not have any categorcial data, thus won't need to encode any variables.
+
+UPD: I did a test run on the new dataset, Random Forest showed 100% on every metric, which is most likely the indicator of overfitting. Gradient Boost showed the same 'success'. Like I said before, they can be very prone to overfitting, and that is what I think happening here. That's why I did a test using Logistic Regression. The results are more modest, however, with the higher bias, the variance is lower in this case, which is a more preferable outcome.
+
+Conclusion: The dataset needs more work done. For the ML model I might shift to simpler, much more interpretable algorithms, that are robust to overfit.
+
+
+## Database Week 2 Deliverables
+
+* Database ERD included in ETL folder in Master Branch
+* Database SQL code included in ETL folder in Master Branch
+* PostgresSQL database setup with a picture of tables setup in Database
+* Two Tables Variables_1 and Variables_2 hold all X- Feature data and are joined to create final DF read into Machine Learning Model. 
+* SQLAlchemy connection string
+
+Next steps week 3  - Three more columns are being added to the dataframe as part of week 3 work to make the model even more robust. This will add Percent_Change_House_Value to ML Model. TO further enhance our application, AWS Cloud Server is being setup so we can have access to data connection anytime via internet rather than tied to a local machine. Again, this will be handled as an enhancement in week 3. 
 
 ## Project Process Overview
 The Class instructors divided the class into 3 4-person teams with each team defining their own project within the Rubric provided. The project will run over 4 weeks with defined deliverables due at the end of each week on Sunday. The Rubric can be found in the Master Branch of the Repository. 
@@ -93,4 +154,17 @@ April 6 - 4 PM,
 April 6  7-9PM,
 April 8 - 3 PM,
 April 8 7-9 PM,
-April 10 2 PM
+April 10 2 PM,
+April 13 3 PM,
+April 13, 7 PM
+April 15 2 PM,
+April 15 7 PM,
+April 17, 3 PM,
+April 20, 7 PM,
+April 22 4 PM,
+April 22 7 PM,
+April 24 3 PM (Sierra told us she is leaving) 
+April 25 (shift in duties)
+April 26 1PM (Finalize Week 2 Deliverables)
+
+
