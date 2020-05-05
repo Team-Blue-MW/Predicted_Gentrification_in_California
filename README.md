@@ -1,5 +1,25 @@
 # Project_M20
 
+## Final Project Deliverables
+Deliverable 1 - Live Team Presentation Google Slide Set with Speaker Notes
+https://docs.google.com/presentation/d/1kLWp4mBFD48zKAz9cKl9nLg1S8X06qbHoQ88r3lhWr4/edit?usp=sharing
+
+More Detailed Team Presentation Defined in Rubric Under Presentation  
+https://docs.google.com/presentation/d/1EY89jfloF3GVRu5aWbtuCjoAC_eqLCAd30Rm7RYjSD4/edit?usp=sharing
+
+Deliverable # 2 - GitHub - see this GitHub Repository
+
+Deliverable #3 (Rubric) Machine Learning Model (see ML writeup below) 
+
+Deliverable #4 - (Rubric) Database S3 and RDS SQL 
+Database presentation can be found in Google Slides at
+https://docs.google.com/presentation/d/1IF_iHJMSYnA6jvOHU9LZdg2cg2WcogY5j00ZlOhlpWU/edit?usp=sharing
+
+Deliverable #5 (Rubric) Gentrification Dashboard (Tableau Storyboard) Link Below:
+-- Daniel Place Link to Your Slides and Link for published Tableau here --- 
+
+
+-------------------------------------------------------------------------------
 ## Week 3 Project Deliverables
 
 Deliverable #1 - PROJECT PRESENTATION can be found in Google Slides at 
@@ -17,7 +37,6 @@ https://docs.google.com/presentation/d/1IF_iHJMSYnA6jvOHU9LZdg2cg2WcogY5j00ZlOhl
 * Real Data Python Code found under ETL Folder in Master Branch 
 * Database ERD and SQL Code found under ETL Folder in Master Branch
 
-
 Deliverable #5 - Gentrification Dashboard - Google Slide https://docs.google.com/presentation/d/1gG6KDQ8mBVEYPGtawjPi9MpZdGQSC38lWJVrBN4hK-w/edit?usp=sharing
 
 ## Machine Learning Overview Week 3 Deliverable 
@@ -29,6 +48,7 @@ To find the best parameters, I performed a grid search over specified parameter 
 
 Another option is to reframe the approach to anomaly detection instead of classification, but I'd like to refrain from that if possible.
 
+-----------------------------------------------------------------------------------------------------------------
 ## Week 2 Project Deliverables
 Note - This week we lost 1 team member Sierra Harris who has applied to drop the course and enroll in next semester. We now have 3 members Daniel, Alena, and Thomas 
 
