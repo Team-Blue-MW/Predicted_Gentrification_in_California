@@ -1,5 +1,25 @@
-# Project_M20
+# Predicated Gentrification In Californa
 
+## Final Project Deliverables
+Deliverable 1 - Live Team Presentation Google Slide Set with Speaker Notes
+https://docs.google.com/presentation/d/1kLWp4mBFD48zKAz9cKl9nLg1S8X06qbHoQ88r3lhWr4/edit?usp=sharing
+
+More Detailed Team Presentation Defined in Rubric Under Presentation  
+https://docs.google.com/presentation/d/1EY89jfloF3GVRu5aWbtuCjoAC_eqLCAd30Rm7RYjSD4/edit?usp=sharing
+
+Deliverable # 2 - GitHub - see this GitHub Repository
+
+Deliverable #3 - Machine Learning Presentation - https://docs.google.com/presentation/d/1YdycVErG7ou-P5ssY5DZQMXGtS8-ULQ-tQ-m9PHUGjY/edit?usp=sharing
+
+Deliverable #4 - (Rubric) Database S3 and RDS SQL 
+Database presentation can be found in Google Slides at
+https://docs.google.com/presentation/d/1IF_iHJMSYnA6jvOHU9LZdg2cg2WcogY5j00ZlOhlpWU/edit?usp=sharing
+
+Deliverable #5 (Rubric) Gentrification Dashboard (Tableau Storyboard) Link Below:
+https://public.tableau.com/profile/da…
+
+
+-------------------------------------------------------------------------------
 ## Week 3 Project Deliverables
 
 Deliverable #1 - PROJECT PRESENTATION can be found in Google Slides at 
@@ -17,9 +37,18 @@ https://docs.google.com/presentation/d/1IF_iHJMSYnA6jvOHU9LZdg2cg2WcogY5j00ZlOhl
 * Real Data Python Code found under ETL Folder in Master Branch 
 * Database ERD and SQL Code found under ETL Folder in Master Branch
 
-
 Deliverable #5 - Gentrification Dashboard - Google Slide https://docs.google.com/presentation/d/1gG6KDQ8mBVEYPGtawjPi9MpZdGQSC38lWJVrBN4hK-w/edit?usp=sharing
 
+## Machine Learning Overview Week 3 Deliverable 
+After having run several tests, using Logistic Regression and Random Forest, there was a realization that imbalanced datasets (our class ratio is 4:1)require a completely different evaluation and approach than balanced ones, because accuracy score is only reflecting the underlying class distribution in our case.
+
+Hence, precision, recall and f1 score are the metrics I will pursue. And I chose Random Forest, because it has shown good performance on imbalanced data before due to its hierarchical structure (linear regression and simpler models aren't equiped to deal with class imbalance). It generally shows a better performance over the single tree classifier, yields generalization error rate and pretty robust to noise. However, RF tends to learn from the class imbalance, focusing on the majority class prediction accuracy rather than minority. To aleviate that, I am going to test balanced random forest and weighted random forest for our model to try to boost predictive performance on minority class.
+
+To find the best parameters, I performed a grid search over specified parameter values using scikit-sklearn implemented GridSearchCV. After that I am going to calibrate the model by adjusting the cutoff by cross-validation. If the metris are still low, I might have to penalize the algorithm, i.e. assign higher missclassification cost.
+
+Another option is to reframe the approach to anomaly detection instead of classification, but I'd like to refrain from that if possible.
+
+-----------------------------------------------------------------------------------------------------------------
 ## Week 2 Project Deliverables
 Note - This week we lost 1 team member Sierra Harris who has applied to drop the course and enroll in next semester. We now have 3 members Daniel, Alena, and Thomas 
 
