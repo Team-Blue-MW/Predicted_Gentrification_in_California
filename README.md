@@ -9,7 +9,7 @@ https://docs.google.com/presentation/d/1EY89jfloF3GVRu5aWbtuCjoAC_eqLCAd30Rm7RYj
 
 Deliverable # 2 - GitHub - see this GitHub Repository
 
-Deliverable #3 Machine Learning Presenantion - https://docs.google.com/presentation/d/1YdycVErG7ou-P5ssY5DZQMXGtS8-ULQ-tQ-m9PHUGjY/edit?usp=sharing
+Deliverable #3 - Machine Learning Presentation - https://docs.google.com/presentation/d/1YdycVErG7ou-P5ssY5DZQMXGtS8-ULQ-tQ-m9PHUGjY/edit?usp=sharing
 
 Deliverable #4 - (Rubric) Database S3 and RDS SQL 
 Database presentation can be found in Google Slides at
