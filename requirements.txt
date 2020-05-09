@@ -1,0 +1,25 @@
+
+Requirements for the Project 
+
+Python 3.0
+
+Libraries required for the machine learning part:
+Pandas, 
+Numpy, 
+Collections,
+Matplotlib, 
+boto3, 
+scikit-learn: sklearn.preprocessing, sklearn.model_selection, sklearn.ensemble, sklearn.metrics, sklearn.over_sampling
+
+Libraries required for the ETL part: 
+Pandas,
+Numpy, 
+json,
+sqlalchemy, 
+psycopg2, 
+boto3, 
+lxml
+
+Database Requirements:
+pgAdmin, 
+SQL Native Client 
