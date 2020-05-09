@@ -19,7 +19,7 @@ sqlalchemy,
 psycopg2, 
 boto3, 
 lxml
-Database Requirements:
 
+Database Requirements:
 pgAdmin, 
 SQL Native Client 
