@@ -16,7 +16,7 @@ Database presentation can be found in Google Slides at
 https://docs.google.com/presentation/d/1IF_iHJMSYnA6jvOHU9LZdg2cg2WcogY5j00ZlOhlpWU/edit?usp=sharing
 
 Deliverable #5 (Rubric) Gentrification Dashboard (Tableau Storyboard) Link Below:
-https://public.tableau.com/profile/da…
+https://public.tableau.com/profile/daniel.chang1450#!/vizhome/Gentrification_15879791503130/Gentrification
 
 
 -------------------------------------------------------------------------------
