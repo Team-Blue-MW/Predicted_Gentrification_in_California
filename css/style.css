@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+body {
+    background: url(Images/backgroundgent.jpeg);
+    background-size: cover;
+    background-color: #004879;
+} 
+
+/* editing and coloring the navbar */
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+
+/* editing and coloring the home button on the left */
+nav p {
+    font-family: arial;
+    color: #222;
+    font-size: 24px;
+    line-height: 55px;
+    float: left;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+nav a:hover {
+    background-color: #f3f3f3;
+}
+
+/* Navigation List */
+nav ul {
+    float: right;
+    padding-right: 10px;
+}
+
+/* editing the navbar list */
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+/* Editing the contents in the navbar list and font/font color */
+nav ul li a {
+    display: block;
+    font-family: arial;
+    color: #222;
+    font-size: 17px;
+    line-height: 55px;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Editing the dropdown list color */
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    width: 80px;
+    border-radius: 4px;
+}
+
+
+nav ul li ul li a:hover {
+    background-color: #f3f3f3;  
+}
+
+#demobox {
+    background-color: whitesmoke;
+    align-content: center;
+    padding: 40px;
+}
+#profiles {
+    align-content: center;
+    padding: 70px;
+}
+
+#Milestones {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 20px 0px;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+  }
+  
+  footer a {
+    color: #fff;
+  }
