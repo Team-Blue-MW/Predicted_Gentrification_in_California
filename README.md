@@ -2,7 +2,7 @@
 
 ## Final Project Deliverables
 Deliverable 1 - Live Team Presentation Google Slide Set with Speaker Notes
-https://docs.google.com/presentation/d/1kLWp4mBFD48zKAz9cKl9nLg1S8X06qbHoQ88r3lhWr4/edit?usp=sharing
+https://docs.google.com/presentation/d/1NTwWEcZEkhFsh9USscrzJ56R8jJn8WdBJdn8K0sY0EE/edit?usp=sharing
 
 More Detailed Team Presentation Defined in Rubric Under Presentation  
 https://docs.google.com/presentation/d/1EY89jfloF3GVRu5aWbtuCjoAC_eqLCAd30Rm7RYjSD4/edit?usp=sharing
@@ -16,7 +16,7 @@ Database presentation can be found in Google Slides at
 https://docs.google.com/presentation/d/1IF_iHJMSYnA6jvOHU9LZdg2cg2WcogY5j00ZlOhlpWU/edit?usp=sharing
 
 Deliverable #5 (Rubric) Gentrification Dashboard (Tableau Storyboard) Link Below:
-https://public.tableau.com/profile/da…
+https://public.tableau.com/profile/daniel.chang1450#!/vizhome/Gentrification_15879791503130/Gentrification
 
 
 -------------------------------------------------------------------------------
