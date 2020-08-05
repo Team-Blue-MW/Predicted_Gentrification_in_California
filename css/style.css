@@ -3,10 +3,19 @@
     padding-bottom: 10px;
 }
 
+html {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
 body {
     background: url(Images/backgroundgent.jpeg);
     background-size: cover;
     background-color: #004879;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
 } 
 
 /* editing and coloring the navbar */
