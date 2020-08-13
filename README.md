@@ -13,7 +13,7 @@
     <a href="https://github.com/Team-Blue-MW/Predicted_Gentrification_in_California"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://team-blue-mw.github.io/Predicted_Gentrification_in_California/">View Website</a>
     ·
     <a href="https://github.com/Team-Blue-MW/Predicted_Gentrification_in_California/issues">Report Bug</a>
     ·
