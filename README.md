@@ -94,6 +94,7 @@ Another option is to reframe the approach to anomaly detection instead of classi
 ## Roadmap
 ### 7 Major Milestones
 
+![Milestones](Images/milestones.png)
 1. Identifying Data Sources
 2. Scraping Data
 3. Preprocess and ETL Data
@@ -105,6 +106,7 @@ Another option is to reframe the approach to anomaly detection instead of classi
 
 ### Technology Stack
 
+![Technology Stack](Images/technologystack)
 1. Python code used to scrap data and create 14 csv files for the different Features.
 2. Stored on S3 server in “databootcamp-csvfiles” bucket. Read/Write permissions generated from AWS Server and embedded in “config” file.
 3. Python/Pandas code used to wrangle data into 2 Dataframes - 1) “Economics, 2) Demographics. Outcome column added to Demographics. Outcome columns filled with “zeros”

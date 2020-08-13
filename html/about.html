@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../css/style.css" rel="stylesheet" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../Images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../Images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../Images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="../Images/favicon_io/site.webmanifest">
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
@@ -22,35 +25,45 @@
 </head>
 
 <body>
-    <!--Coloring the background of the webpage-->
-    <style>
-        body { background: #004879;}
-    </style>
+
     <!--Navigation Bar Section-->
-    <nav>
-        <p><a class="active text-info" href="../index.html">G.A.P.</a></p>
-        <ul>
-            <li><a href="https://github.com/Team-Blue-MW/Predicted_Gentrification_in_California" target="_blank">GitHub</a></li>
-            <li><a href="#">Dashboards</a>
-                <ul>
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 2</a></li>
-                </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="../index.html">
+            <img src="../Images/favicon_io/android-chrome-512x512.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            Gentrification Analysis Predictors
+        </a>   
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/Team-Blue-MW/Predicted_Gentrification_in_California" target="_blank">GitHub</a>
             </li>
-            <li><a href="about.html">About</a></li>
-        </ul>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dashboard
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Dashboard 1</a>
+                <a class="dropdown-item" href="#">Dashboard 2</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Tableau</a>
+              </div>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
     </nav>
     <!--Content Section-->
     <div class="container">
-        <div class="row" style="padding: 50px; padding-left: 100px;">
+        <div class="row h-100" style="padding: 50px; padding-left: 100px;">
             <div class="my-auto">
                 <!--Box Content-->
                 <div id="demobox" class="box">
-                    <div class="col-12">
+                    <div class="col-sm-12 my-auto">
                         <h1 class="title">About</h1>
                         <hr>
-                        <img id="images" src="../Images/gaplogo.jpeg" class="center visualization" alt="G.A.P. Logo">
+                        <img id="images" src="../Images/favicon_io/android-chrome-512x512.png" width="100" height="100" class="center visualization" alt="G.A.P. Logo">
                         <h4 class="title text-info">Overview:</h4>
                         <p>We are G.A.P. (Gentrification Analysis Predictors) and we close the G.A.P. in gentrification. 
                             We develop superior machine learning programming to predict gentrification in California.
@@ -59,7 +72,7 @@
                         </p>
                         <!--Style the profile images with this style block-->
                         <style>
-                            img {
+                            #profile-img {
                                 display: block;
                                 width: 200px;
                             }
@@ -68,19 +81,19 @@
                         <div id="profiles">
                             <div class="row">
                                 <div class="col-md-6 figure">
-                                    <img class="figure-img" src="../Images/Daniel.jpeg" alt="Daniel Chang">
+                                    <img id="profile-img" class="figure-img" src="../Images/Daniel.jpeg" alt="Daniel Chang">
                                     <div class="title text-info">Daniel Chang</div>
                                     <p class="font-weight-bold">Data Engineer</p>
                                 </div>
                                 <div class="col-md-6 figure">
-                                    <img class="figure-img" src="../Images/Alena.jpeg" alt="Alena Kuznetsova">
+                                    <img id="profile-img" class="figure-img" src="../Images/Alena.jpeg" alt="Alena Kuznetsova">
                                     <div class="title text-info">Alena Kuznetsova</div>
                                     <p class="font-weight-bold">Data Scientist</p>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-6 figure">
-                                    <img class="figure-img" src="../Images/Thomas.jpeg" alt="Thomas Cottrell">
+                                    <img id="profile-img" class="figure-img" src="../Images/Thomas.jpeg" alt="Thomas Cottrell">
                                     <div class="title text-info">Thomas Cottrell</div>
                                     <p class="font-weight-bold">AWS Data Architect</p>
                                 </div>

@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet" />
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="Images/favicon_io/site.webmanifest">
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
@@ -23,19 +27,33 @@
 <body>
 
     <!--NavBar-->
-    <nav>
-        <p><a class="active text-info" href="index.html">G.A.P.</a></p>
-        <ul>
-            <li><a href="https://github.com/Team-Blue-MW/Predicted_Gentrification_in_California" target="_blank">GitHub</a></li>
-            <li><a href="#">Dashboards</a>
-                <ul>
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 2</a></li>
-                </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="Images/favicon_io/android-chrome-512x512.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            Gentrification Analysis Predictors
+        </a>
+      
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/Team-Blue-MW/Predicted_Gentrification_in_California" target="_blank">GitHub</a>
             </li>
-            <li><a href="html/about.html">About</a></li>
-        </ul>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dashboard
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Dashboard 1</a>
+                <a class="dropdown-item" href="#">Dashboard 2</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Tableau</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="html/about.html">About</a>
+            </li>
+          </ul>
+        </div>
     </nav>
     <!--Content Section-->
     <div class="container">
@@ -46,7 +64,7 @@
                     <div class="col-12">
                         <h1 class="title">Home</h1>
                         <hr>
-                        <img id="images" src="Images/gaplogo.jpeg" class="center visualization" alt="G.A.P. Logo">
+                        <img id="images" src="Images/favicon_io/android-chrome-512x512.png" width="100" height="100" class="center visualization" alt="G.A.P. Logo">
                         <h4 class="title text-info">Overview:</h4>
                         <p>
                             We are G.A.P. (Gentrification Analysis Predictors) and we close the G.A.P. in gentrification. 
@@ -104,28 +122,32 @@
                             <hr>
                             <img id="Milestones" class="center" src="Images/milestones.png" alt="Milestones">
                             <h5 class="text-info">Our Team set 7 Major Milestones with each team member concentrating on specific areas.</h5>
-                            <p>1. Identifying Data Sources</p>
-                            <p>2. Scraping Data</p>
-                            <p>3. Preprocess and ETL Data</p>
-                            <p>4. Writing Machine Learning Code and Choosing the Model</p>
-                            <p>5. Defining Database Schema and setting up S3 and RDS Databases</p>
-                            <p>6. Define and Build Visual Presentation Layer</p>
-                            <p>7. Predict and Display Gentrification Neighborhoods</p>
-                            <p>8. Overall Architecture and Project Management</p>
+                            <p>
+                                1. Identifying Data Sources
+                                <br>2. Scraping Data
+                                <br>3. Preprocess and ETL Data
+                                <br>4. Writing Machine Learning Code and Choosing the Mode
+                                <br>5. Defining Database Schema and setting up S3 and RDS Databases
+                                <br>6. Define and Build Visual Presentation Layer
+                                <br>7. Predict and Display Gentrification Neighborhoods
+                                <br>8. Overall Architecture and Project Management
+                            </p>
                         </div>
                         <div>
                             <hr>
                             <img id="Milestones" class="center" src="Images/technologystack.png" alt="Technology Stack">
-                            <p>1. Python code used to scrap data and create 14 csv files for the different Features.</p>
-                            <p>2. Stored on S3 server in “databootcamp-csvfiles” bucket. Read/Write permissions generated from AWS Server and embedded in “config” file.</p>
-                            <p>3. Python/Pandas code used to wrangle data into 2 Dataframes - 1) “Economics, 2) Demographics. Outcome column added to Demographics. Outcome columns filled with “zeros”</p>
-                            <p>4. Files stored on S3 Server in “Gentrificationmldata” bucket.</p>
-                            <p>5. pgAdmin used to make connection to AWS relational database, define tables in RDS.</p>
-                            <p>6. 2 files - Economic and Demographic - imported into their respective RDS tables and joined into a single table called “California_blank_tagged.” Exported to S3 server “gentrificationmldata” bucket.</p>
-                            <p>7. Python used to pull ML input data from S3 server and  preprocess for ML training.</p>
-                            <p>8. 1100 Rows of data split into Training/Test sets and used to train ML Model. Model then “Predicts Gentrification zip codes in Test Dataset” placing a 1 in Outcome Column.</p>
-                            <p>9. Using Python, Outcome “Y” then written into “Predicted Outcome” column in dataframe. Using Python the final “Predicted” file is stored on S3 server.</p>
-                            <p>10. Tableau then imports the Predicted file and generates a Map showing the gentrified zip codes in color.</p>
+                            <p>
+                                1. Python code used to scrap data and create 14 csv files for the different Features.
+                                <br>2. Stored on S3 server in “databootcamp-csvfiles” bucket. Read/Write permissions generated from AWS Server and embedded in “config” file.
+                                <br>3. Python/Pandas code used to wrangle data into 2 Dataframes - 1) “Economics, 2) Demographics. Outcome column added to Demographics. Outcome columns filled with “zeros”.
+                                <br>4. Files stored on S3 Server in “Gentrificationmldata” bucket.
+                                <br>5. pgAdmin used to make connection to AWS relational database, define tables in RDS.
+                                <br>6. 2 files - Economic and Demographic - imported into their respective RDS tables and joined into a single table called “California_blank_tagged.” Exported to S3 server “gentrificationmldata” bucket.
+                                <br>7. Python used to pull ML input data from S3 server and  preprocess for ML training.
+                                <br>8. 1100 Rows of data split into Training/Test sets and used to train ML Model. Model then “Predicts Gentrification zip codes in Test Dataset” placing a 1 in Outcome Column.
+                                <br>9. Using Python, Outcome “Y” then written into “Predicted Outcome” column in dataframe. Using Python the final “Predicted” file is stored on S3 server.
+                                <br>10. Tableau then imports the Predicted file and generates a Map showing the gentrified zip codes in color.
+                            </p>
                         </div>
                     </div>
                 </div>
