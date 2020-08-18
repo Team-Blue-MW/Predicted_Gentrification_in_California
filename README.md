@@ -26,9 +26,6 @@
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
 * [Analysis](#analysis)
   * [Machine Learning](#machine-learning)
   * [Tableau](#tableau)
@@ -54,12 +51,6 @@ Where are the Opportunities Good For?
 - [PostgreSQL](https://www.postgresql.org/)
 - [Tableau](https://www.tableau.com/)
 - [Bootstrap](https://getbootstrap.com)
-
-## Getting Started
-
-### Prerequisites
-
-### Installation
 
 ## Analysis
 
@@ -106,7 +97,7 @@ Another option is to reframe the approach to anomaly detection instead of classi
 
 ### Technology Stack
 
-![Technology Stack](Images/technologystack)
+![Technology Stack](Images/technologystack.png)
 1. Python code used to scrap data and create 14 csv files for the different Features.
 2. Stored on S3 server in “databootcamp-csvfiles” bucket. Read/Write permissions generated from AWS Server and embedded in “config” file.
 3. Python/Pandas code used to wrangle data into 2 Dataframes - 1) “Economics, 2) Demographics. Outcome column added to Demographics. Outcome columns filled with “zeros”
