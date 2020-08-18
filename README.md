@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/Team-Blue-MW/Predicted_Gentrification_in_California">
-    <img src="Images/logo.png" alt="Logo" width="80" height="80">
+    <img src="Images/favicon_io/android-chrome-512x512.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Predicted Gentrification In California</h3>

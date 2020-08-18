@@ -22,10 +22,26 @@ body {
     padding: 40px;
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
+
+#logo {
+    margin-bottom: 20px;
+}
+
 #profiles {
     align-content: center;
     padding: 70px;
+}
+
+#profile-img {
+    display: block;
+    width: 200px;
+}
+
+#opportunity-img {
+    height: 150px;
+    width: 250px;
 }
 
 #Milestones {
